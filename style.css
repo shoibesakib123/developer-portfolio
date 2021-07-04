@@ -8,7 +8,7 @@ h1{
 .color-span{
     color: rgb(248, 106, 5);
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 50px;
 }
@@ -44,4 +44,33 @@ section{
     background-image: url(developer-portfolio-master/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.color-h3{
+    color: rgb(248, 106, 5);
+}
+.last-div {
+    box-shadow: 10px 10px 15px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 50px;
+
+    
+}
+.last-banner{
+    background-image: url(developer-portfolio-master/images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+#left-border2{
+    border-left:5px solid;
+    border-image: linear-gradient(cyan,blue);
+    border-image-slice: 1;
+}
+#left-border1{
+    border-left: 5px solid;
+    border-image:linear-gradient(red,rgb(90, 16, 16));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
